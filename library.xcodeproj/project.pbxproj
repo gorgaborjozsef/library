@@ -13,6 +13,11 @@
 		76560B051C59EED700DE6EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76560B031C59EED700DE6EE2 /* Main.storyboard */; };
 		76560B071C59EED700DE6EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76560B061C59EED700DE6EE2 /* Assets.xcassets */; };
 		76560B0A1C59EED700DE6EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76560B081C59EED700DE6EE2 /* LaunchScreen.storyboard */; };
+		76560B141C59F3D000DE6EE2 /* TutorialStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76560B131C59F3D000DE6EE2 /* TutorialStoryboard.storyboard */; };
+		76560B1F1C59F3DD00DE6EE2 /* TutorialScreen1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76560B181C59F3DD00DE6EE2 /* TutorialScreen1ViewController.m */; };
+		76560B201C59F3DD00DE6EE2 /* TutorialScreen2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76560B1A1C59F3DD00DE6EE2 /* TutorialScreen2ViewController.m */; };
+		76560B211C59F3DD00DE6EE2 /* TutorialScreen3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76560B1C1C59F3DD00DE6EE2 /* TutorialScreen3ViewController.m */; };
+		76560B221C59F3DD00DE6EE2 /* TutorialPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76560B1E1C59F3DD00DE6EE2 /* TutorialPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		76560B061C59EED700DE6EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76560B091C59EED700DE6EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76560B0B1C59EED700DE6EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76560B131C59F3D000DE6EE2 /* TutorialStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TutorialStoryboard.storyboard; sourceTree = "<group>"; };
+		76560B171C59F3DD00DE6EE2 /* TutorialScreen1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialScreen1ViewController.h; sourceTree = "<group>"; };
+		76560B181C59F3DD00DE6EE2 /* TutorialScreen1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialScreen1ViewController.m; sourceTree = "<group>"; };
+		76560B191C59F3DD00DE6EE2 /* TutorialScreen2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialScreen2ViewController.h; sourceTree = "<group>"; };
+		76560B1A1C59F3DD00DE6EE2 /* TutorialScreen2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialScreen2ViewController.m; sourceTree = "<group>"; };
+		76560B1B1C59F3DD00DE6EE2 /* TutorialScreen3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialScreen3ViewController.h; sourceTree = "<group>"; };
+		76560B1C1C59F3DD00DE6EE2 /* TutorialScreen3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialScreen3ViewController.m; sourceTree = "<group>"; };
+		76560B1D1C59F3DD00DE6EE2 /* TutorialPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialPageViewController.h; sourceTree = "<group>"; };
+		76560B1E1C59F3DD00DE6EE2 /* TutorialPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialPageViewController.m; sourceTree = "<group>"; };
+		76560B231C59F4AE00DE6EE2 /* PageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PageController.h; path = library/Turorial/PageController.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 		76560AF91C59EED700DE6EE2 /* library */ = {
 			isa = PBXGroup;
 			children = (
+				76560B111C59F34700DE6EE2 /* Tutorial */,
 				76560AFD1C59EED700DE6EE2 /* AppDelegate.h */,
 				76560AFE1C59EED700DE6EE2 /* AppDelegate.m */,
 				76560B001C59EED700DE6EE2 /* ViewController.h */,
@@ -77,6 +93,49 @@
 				76560AFB1C59EED700DE6EE2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76560B111C59F34700DE6EE2 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				76560B151C59F3DD00DE6EE2 /* ViewControllers */,
+				76560B121C59F3D000DE6EE2 /* Storyboard */,
+			);
+			name = Tutorial;
+			sourceTree = "<group>";
+		};
+		76560B121C59F3D000DE6EE2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				76560B131C59F3D000DE6EE2 /* TutorialStoryboard.storyboard */,
+			);
+			name = Storyboard;
+			path = Turorial/Storyboard;
+			sourceTree = "<group>";
+		};
+		76560B151C59F3DD00DE6EE2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				76560B161C59F3DD00DE6EE2 /* Tutorial Screens */,
+				76560B231C59F4AE00DE6EE2 /* PageController.h */,
+				76560B1D1C59F3DD00DE6EE2 /* TutorialPageViewController.h */,
+				76560B1E1C59F3DD00DE6EE2 /* TutorialPageViewController.m */,
+			);
+			name = ViewControllers;
+			path = Turorial/ViewControllers;
+			sourceTree = "<group>";
+		};
+		76560B161C59F3DD00DE6EE2 /* Tutorial Screens */ = {
+			isa = PBXGroup;
+			children = (
+				76560B171C59F3DD00DE6EE2 /* TutorialScreen1ViewController.h */,
+				76560B181C59F3DD00DE6EE2 /* TutorialScreen1ViewController.m */,
+				76560B191C59F3DD00DE6EE2 /* TutorialScreen2ViewController.h */,
+				76560B1A1C59F3DD00DE6EE2 /* TutorialScreen2ViewController.m */,
+				76560B1B1C59F3DD00DE6EE2 /* TutorialScreen3ViewController.h */,
+				76560B1C1C59F3DD00DE6EE2 /* TutorialScreen3ViewController.m */,
+			);
+			path = "Tutorial Screens";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76560B0A1C59EED700DE6EE2 /* LaunchScreen.storyboard in Resources */,
+				76560B141C59F3D000DE6EE2 /* TutorialStoryboard.storyboard in Resources */,
 				76560B071C59EED700DE6EE2 /* Assets.xcassets in Resources */,
 				76560B051C59EED700DE6EE2 /* Main.storyboard in Resources */,
 			);
@@ -149,8 +209,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76560B211C59F3DD00DE6EE2 /* TutorialScreen3ViewController.m in Sources */,
+				76560B221C59F3DD00DE6EE2 /* TutorialPageViewController.m in Sources */,
 				76560B021C59EED700DE6EE2 /* ViewController.m in Sources */,
 				76560AFF1C59EED700DE6EE2 /* AppDelegate.m in Sources */,
+				76560B1F1C59F3DD00DE6EE2 /* TutorialScreen1ViewController.m in Sources */,
+				76560B201C59F3DD00DE6EE2 /* TutorialScreen2ViewController.m in Sources */,
 				76560AFC1C59EED700DE6EE2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +362,7 @@
 				76560B101C59EED700DE6EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
